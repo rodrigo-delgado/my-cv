@@ -278,7 +278,7 @@ main > section {
 }
 
 h1.navbar-brand {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
@@ -286,7 +286,7 @@ h1.navbar-brand {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 
@@ -331,7 +331,8 @@ h1.navbar-brand {
 }
 
 .slide-caption {
-    color: #fff;
+    color: #000000;
+    font-weight: 900;
     display: table;
     height: 100%;
     left: 0;
@@ -349,14 +350,15 @@ h1.navbar-brand {
 }
 
 .caption-content h2 {
-    color: #fff;
-    font-size: 52px;
-    font-weight: 400;
+    color: ‎#000000;
+    font-size: 55px;
+    font-weight: 900;
     margin-bottom: 25px;
     text-transform: uppercase;
 }
 
 .caption-content > span {
+
     display: block;
     font-size: 24px;
     margin-bottom: 45px;
@@ -516,10 +518,11 @@ h1.navbar-brand {
 }
 
 #about .welcome-block img {
-    border: 3px solid #fff;
-    border-radius: 20%;
+    border: 5px solid #083549;
+    border-radius: 1%;
     margin-right: 35px;
     max-width: 250px;
+
 }
 
 #about .message-body {
@@ -567,17 +570,17 @@ h1.navbar-brand {
     width: 85px;
     line-height: 101px;
 
-    -webkit-transform: rotate(47deg);
+    /*-webkit-transform: rotate(47deg);
        -moz-transform: rotate(47deg);
         -ms-transform: rotate(47deg);
          -o-transform: rotate(47deg);
-            transform: rotate(47deg);
+            transform: rotate(47deg);*/
 
-    -webkit-transition: all 0.3s ease 0s;
-       -moz-transition: all 0.3s ease 0s;
-        -ms-transition: all 0.3s ease 0s;
-         -o-transition: all 0.3s ease 0s;
-            transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+       -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+         -o-transition: all 0.5s ease 0s;
+            transition: all 0.5s ease 0s;
 }
 
 .service-item:hover .service-icon {
@@ -587,11 +590,11 @@ h1.navbar-brand {
 }
 
 .service-icon i {
-    -webkit-transform: rotate(-48deg);
+    /*-webkit-transform: rotate(-48deg);
        -moz-transform: rotate(-48deg);
         -ms-transform: rotate(-48deg);
          -o-transform: rotate(-48deg);
-            transform: rotate(-48deg);
+            transform: rotate(-48deg);*/
 }
 
 .service-item h3 {
@@ -716,7 +719,7 @@ ul.external li a:hover {
 
 
 #testimonials {
-    background-image: url(../img/slider/batman-5.jpg);
+    background-image: url(../img/slider/san-blass-me.jpg);
     padding: 0;
     color: #fff;
 }
