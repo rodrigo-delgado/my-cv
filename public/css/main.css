@@ -501,12 +501,12 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
-    color: #fff;
+    background-color: #fff;
+    color: #083549;
 }
 
 #about h3 {
-    color: #fff;
+    color: #083549;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
@@ -882,7 +882,7 @@ ul.external li a:hover {
 
 
 /*=================================================================
-	
+
 ==================================================================*/
 
 #social {
