@@ -615,6 +615,7 @@ h1.navbar-brand {
 
 .project-wrapper li {
     display: inline-block;
+
 }
 
 .portfolio-item {
@@ -622,7 +623,7 @@ h1.navbar-brand {
     margin: 0 1% 1% 0;
     overflow: hidden;
     position: relative;
-    width: 32%;
+    width: 30%;
 }
 
 figcaption.mask {
@@ -632,6 +633,7 @@ figcaption.mask {
     padding: 25px;
     position: absolute;
     width: 100%;
+
     text-align: left;
 
     -webkit-transition: all 0.4s ease 0s;
