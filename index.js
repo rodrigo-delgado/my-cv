@@ -20,8 +20,3 @@ app.get('/', function(request, response) {
 app.listen(app.get('port'), function() {
   console.log('app is running on PORT', app.get('port'));
 });
-
-var http = require("http");
-setInterval(function() {
-    http.get("http://rdelgado-cv.herokuapp.com");
-}, 300000); // every 5 minutes (300000)
